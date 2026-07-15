@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[GitHub]([./another-page.html](https://github.com/pouaphenglor)).
+[GitHub Profile]([./another-page.html](https://github.com/pouaphenglor))
 
 # Header 1
 
