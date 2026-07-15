@@ -28,9 +28,37 @@ details clearly. I'm ready to bring sharp work ethic and my training to a fast-p
 *   Colelcted live adversary data, eaxtracting attacker source IPs, attempted credentials and malicous payloads
 *   Built a central dashboard to parse and visualize attack logs and documented project with screenshot proof of real attacks on [GitHub](https://www.github.com/pouaphenglor/)
 
-### Malware Analysis Detection Rule
+### Malware Analysis Detection
 ###### July 2026
-*   Detonated Malware Sample in a controlled islated virtual machine
-*   Conducted reverse engineering analysis using Ghidra to identify malware execution logic
-*   Engineered custom Sigma and YARA rules based on extracted behaviors
-
+>title: Command Shell Spawning Encoded PowerShell Download Cradle
+id: 9b2d3e14-fa4b-4654-a311-dfbc0474ce8f
+status: production
+description: Detects command prompt processes invoking hidden or encoded instances of PowerShell, commonly observed in malicious payload delivery chains like Qakbot or Emotet.
+references:
+    - https://www.malware-traffic-analysis.net
+author: PouaPheng Lor
+date: 2026/07/06
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_parent:
+        ParentImage|endswith: '\cmd.exe'
+    selection_child:
+        Image|endswith: '\powershell.exe'
+    selection_args:
+        CommandLine|contains:
+            - '-enc'
+            - '-encoded'
+            - ' -w hidden'
+            - 'windowstyle hidden'
+            - 'bypass'
+    condition: selection_parent and selection_child and selection_args
+falsepositives:
+    - Legacy corporate endpoint management scripts (must be baselined out via parent path exceptions)
+level: high
+tags:
+    - attack.execution
+    - attack.t1059.001
+    - attack.t1204.002
+>
