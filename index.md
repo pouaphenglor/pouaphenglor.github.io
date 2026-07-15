@@ -3,7 +3,7 @@ layout: default
 ---
 [LinkedIn](https://www.linkedin.com/in/pouapheng-lor/)
 
-[GitHub Profile]([./another-page.html]https://www.github.com/pouaphenglor/)
+[GitHub Profile](https://www.github.com/pouaphenglor/)
 
 # About 
 
