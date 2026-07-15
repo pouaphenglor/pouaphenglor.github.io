@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[GitHub Profile]([./another-page.html]https://www.linkedin.com/in/pouapheng-lor/)
+[LinkedIn]([./another-page.html]https://www.linkedin.com/in/pouapheng-lor/)
 
 [GitHub Profile]([./another-page.html]https://www.github.com/pouaphenglor/)
 
