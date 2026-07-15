@@ -12,8 +12,8 @@ grounding in networking and systems with years of experience leading teams and m
 comfortable troubleshooting complex issues under pressure, and I pride myself on documenting and explaining technical
 details clearly. I'm ready to bring sharp work ethic and my training to a fast-paced team.
 
-## Labs
 
+## Labs
 ### Network Configuration + Trouble shooting
 ###### April 2023
 *   Used Wireshark to capture traffic and track down packet loss, identifying a faulty router as the cause
