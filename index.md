@@ -30,6 +30,10 @@ details clearly. I'm ready to bring sharp work ethic and my training to a fast-p
 
 ### Malware Analysis Detection
 ###### July 2026
+*   Detonated Malware Sample in a controlled isolated virtual machine
+*   Conducted reverse engineering analysis using Ghidra to identify malware execution logic
+*   Engineered custom Sigma and YARA rules based on extracted behaviors
+
 ```yaml
 title: Command Shell Spawning Encoded PowerShell Download Cradle
 id: 9b2d3e14-fa4b-4654-a311-dfbc0474ce8f
