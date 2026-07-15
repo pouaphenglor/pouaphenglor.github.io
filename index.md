@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+[GitHub Profile]([./another-page.html]https://www.linkedin.com/in/pouapheng-lor/)
 [GitHub Profile]([./another-page.html](https://github.com/pouaphenglor))
 
-# Header 1
+# About 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
