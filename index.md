@@ -30,12 +30,13 @@ details clearly. I'm ready to bring sharp work ethic and my training to a fast-p
 
 ### Malware Analysis Detection
 ###### July 2026
->title: Command Shell Spawning Encoded PowerShell Download Cradle
+```yaml
+title: Command Shell Spawning Encoded PowerShell Download Cradle
 id: 9b2d3e14-fa4b-4654-a311-dfbc0474ce8f
 status: production
 description: Detects command prompt processes invoking hidden or encoded instances of PowerShell, commonly observed in malicious payload delivery chains like Qakbot or Emotet.
 references:
-    - https://www.malware-traffic-analysis.net
+    - [https://www.malware-traffic-analysis.net](https://www.malware-traffic-analysis.net)
 author: PouaPheng Lor
 date: 2026/07/06
 logsource:
@@ -61,4 +62,3 @@ tags:
     - attack.execution
     - attack.t1059.001
     - attack.t1204.002
->
