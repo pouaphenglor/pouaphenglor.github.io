@@ -14,7 +14,7 @@ details clearly. I'm ready to bring sharp work ethic and my training to a fast-p
 
 ## Labs
 
-### Network Configuration + Trouble shooting
+### Network Configuration + Troubleshooting
 ###### April 2023
 *   Used Wireshark to capture traffic and track down packet loss, identifying a faulty router as the cause
 *   Diagnosed network and DNS issues using common troubleshooting tools
