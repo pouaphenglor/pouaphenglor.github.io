@@ -26,7 +26,7 @@ details clearly. I'm ready to bring sharp work ethic and my training to a fast-p
 ###### April 2026
 *   Deployed Cowrie honeypot on a public facing cloud VPS, configuring it on port 22 to capture SSH and telnet brute-force attacks
 *   Colelcted live adversary data, eaxtracting attacker source IPs, attempted credentials and malicous payloads
-*   Build a central dashboard to parse and visualize attack logs and documented project with screenshot proof of real attacks on [GitHub](https://www.github.com/pouaphenglor/)
+*   Built a central dashboard to parse and visualize attack logs and documented project with screenshot proof of real attacks on [GitHub](https://www.github.com/pouaphenglor/)
 
 ### Malware Analysis Detection Rule
 ###### July 2026
