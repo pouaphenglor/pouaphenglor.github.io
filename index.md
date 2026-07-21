@@ -7,10 +7,8 @@ layout: default
 
 # About Me
 
-I'm a Denver-based Computer Information Systems Graduate and Security+ certified professional. My background combines a
-grounding in networking and systems with years of experience leading teams and managing operational workflows. I am
-comfortable troubleshooting complex issues under pressure, and I pride myself on documenting and explaining technical
-details clearly. I'm ready to bring sharp work ethic and my training to a fast-paced team.
+I'm a Denver-based Cybersecurity professional. My background combines a grounding in networking and systems with years of experience leading teams and managing operational workflows. I am
+comfortable troubleshooting complex issues under pressure, and I pride myself on documenting and explaining technicaldetails clearly. I'm ready to bring sharp work ethic and my training to a fast-paced team.
 
 ## Labs
 
